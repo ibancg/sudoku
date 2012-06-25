@@ -1,0 +1,7 @@
+
+syntax: regexp
+^Debug$
+syntax: regexp
+^sudoku$
+syntax: regexp
+^\.depend$
