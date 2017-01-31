@@ -1,19 +1,19 @@
 
-DESCRIPTION
------------
+Description
+===========
 
 This program can solve a sudoku puzzle.
 
 
-COMPILING
----------
+Compiling
+=========
 
 Compile it entering the command "make". You will need the GCC compiler and the
 GNU Make tool.
 
 
-RUNNING
--------
+Running
+=======
 
 	Usage: sudoku [-a] [-p] [-i input_file] [-o output_file]
 	Sudoku solver.
@@ -31,8 +31,8 @@ will be used.
 
 If the search takes too time you will be noticed periodically of the progress.
 
-TABLE FORMATS
--------------
+Board Fotmats
+=============
 
 The input format is quite flexible, you only have to respect that any digit
 between '1' and '9' will be considered as a fixed digit, and a '0','.','-' or
@@ -64,3 +64,4 @@ following formats are accepted for the same table.
 	- - 1 - - 8 6 - - 
 
 Also, the last format is the one used to display the solutions.
+
